@@ -1,5 +1,4 @@
 function Header() {
-    <p>coucou</p>
-};
-
+  <p>coucou</p>;
+}
 export default Header;

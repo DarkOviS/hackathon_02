@@ -5,8 +5,8 @@ export default function Vignette({ name, image, price, available, license }) {
   return (
     <div className="vignette">
       <img src={image} alt="campingcar" />
-      <h1>{name}</h1>
-      <ul>
+      <h2 className="campingCarName">{name}</h2>
+      <ul className="listContainer">
         <li>{available}</li>
         <li>{price}</li>
         <li>{license}</li>

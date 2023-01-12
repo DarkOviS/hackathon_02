@@ -18,11 +18,13 @@ export default function Travel() {
         <Leaflet styleMap={styleMap} />
       ) : (
         <div className="trajet_container">
-          <label htmlFor="depart">Départ : </label>
-          <input type="text" id="depart" />
-          <label htmlFor="arrivé">Arrivé : </label>
-          <input type="text" id="arrivé" />
-          <input type="submit" value="valider" className="validation_btn" />
+          <div className="inputContainer">
+            <input type="text" id="depart" placeholder="  Départ..." />
+            <input type="text" id="arrivé" placeholder="  Arrivée..." />
+          </div>
+          <div className="container_btn">
+            <input type="submit" value="valider" className="validation_btn" />
+          </div>
           <p>Destination: Biarritz - 1000 km</p>
           <button
             type="button"

@@ -6,16 +6,25 @@
   background: none;
   border-radius: 30px;
   border: 2px solid black;
-  height: 2rem;
-  width: 10rem;
+  height: 1.5rem;
+  width: 4rem;
+}
+.inputContainer {
+  display: flex;
+  justify-content: space-around;
 }
 input {
   font-size: medium;
-  width: 8rem;
+  width: 11rem;
   height: 2rem;
   border-radius: 30px;
 }
 .leaflet_button {
   border: none;
   background: none;
+}
+.container_btn {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
 }

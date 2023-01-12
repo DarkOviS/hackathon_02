@@ -1,0 +1,68 @@
+const campingCarData = [
+  {
+    id: 1,
+    name: "campingcar1",
+    image: "src/assets/campingcar1.png",
+    price: "100,000€",
+    available: "Disponible",
+    license: "Permis B",
+  },
+  {
+    id: 2,
+    name: "campingcar2",
+    image: "src/assets/campingcar1.png",
+    price: "45,000€",
+    available: "Maintenance",
+    license: "Permis poids lourd",
+  },
+  {
+    id: 3,
+    name: "campingcar3",
+    image: "src/assets/campingcar1.png",
+    price: "80,000€",
+    available: "Déjà loué",
+    license: "Permis B",
+  },
+  {
+    id: 4,
+    name: "campingcar4",
+    image: "src/assets/campingcar1.png",
+    price: "80,000€",
+    available: "Déjà loué",
+    license: "Permis B",
+  },
+  {
+    id: 5,
+    name: "campingcar5",
+    image: "src/assets/campingcar1.png",
+    price: "80,000€",
+    available: "Déjà loué",
+    license: "Permis B",
+  },
+  {
+    id: 6,
+    name: "campingcar6",
+    image: "src/assets/campingcar1.png",
+    price: "80,000€",
+    available: "Déjà loué",
+    license: "Permis B",
+  },
+  {
+    id: 7,
+    name: "campingcar7",
+    image: "src/assets/campingcar1.png",
+    price: "80,000€",
+    available: "Déjà loué",
+    license: "Permis B",
+  },
+  {
+    id: 8,
+    name: "campingcar8",
+    image: "src/assets/campingcar1.png",
+    price: "80,000€",
+    available: "Déjà loué",
+    license: "Permis B",
+  },
+];
+
+export default campingCarData;

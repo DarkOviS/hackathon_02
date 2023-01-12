@@ -1,0 +1,21 @@
+.trajet_container {
+  display: flex;
+  flex-direction: column;
+}
+.validation_btn {
+  background: none;
+  border-radius: 30px;
+  border: 2px solid black;
+  height: 2rem;
+  width: 10rem;
+}
+input {
+  font-size: medium;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 30px;
+}
+.leaflet_button {
+  border: none;
+  background: none;
+}

@@ -1,15 +1,31 @@
 .vignette {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  max-width: 600px;
   border: 2px solid black;
-  gap: 5px;
+  border-radius: 30px;
+  min-height: 100px;
+  gap: 30px;
+  text-align: start;
+  align-items: center;
 }
 .vignetteContainer {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+.listContainer {
+  max-width: 50px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.campingCarName {
+  max-width: 120px;
+}
+
 img {
-  width: 100px;
+  margin-left: 10px;
+  width: 80px;
+  border-radius: 50%;
 }

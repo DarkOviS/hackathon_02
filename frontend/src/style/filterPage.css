@@ -1,0 +1,57 @@
+.mainFilter {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  grid-column-end: 7;
+  gap: 50px;
+  align-items: center;
+}
+
+#container1,
+#disponibilité,
+#permis,
+#carburant,
+#personnes {
+}
+
+input[type="number"] {
+  width: 80px;
+  font-size: small;
+}
+
+input::placeholder {
+  margin-left: 30px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+}
+
+#personnes,
+#container1,
+#disponibilité,
+#permis,
+#carburant {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+#container1 {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#disponibilité {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#carburant,
+#permis {
+  display: flex;
+  justify-content: space-around;
+}

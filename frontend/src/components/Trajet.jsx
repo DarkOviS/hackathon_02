@@ -1,5 +1,5 @@
 import Leaflet from "./Leaflet";
-import "./Trajet.css";
+import "../style/Trajet.css";
 
 export default function Trajet() {
   return (

@@ -1,0 +1,15 @@
+.vignette {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  gap: 5px;
+}
+.vignetteContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+img {
+  width: 100px;
+}

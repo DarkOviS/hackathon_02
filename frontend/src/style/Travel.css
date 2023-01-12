@@ -15,3 +15,7 @@ input {
   height: 2rem;
   border-radius: 30px;
 }
+.leaflet_button {
+  border: none;
+  background: none;
+}

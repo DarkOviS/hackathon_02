@@ -1,0 +1,31 @@
+header {
+  padding: 5px 0px;
+  background: rgb(78, 186, 35);
+  background: linear-gradient(
+    41deg,
+    rgba(78, 186, 35, 0.15312062324929976) 44%,
+    rgba(27, 175, 80, 0.6433167016806722) 100%
+  );
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.loupe {
+  height: 35px;
+  width: 35px;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+.connexion {
+  height: 35px;
+  width: 35px;
+}

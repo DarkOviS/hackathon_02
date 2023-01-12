@@ -15,6 +15,7 @@ export default function List() {
             price={campingCar.price}
             available={campingCar.available}
             license={campingCar.license}
+            id={campingCar.id}
           />
         ))}
       </div>

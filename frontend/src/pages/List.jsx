@@ -1,5 +1,5 @@
-import Header from "../Components/Header";
-import Vignette from "../Components/Vignette";
+import Header from "../components/Header";
+import Vignette from "../components/Vignette";
 
 const campingCarData = [
   {

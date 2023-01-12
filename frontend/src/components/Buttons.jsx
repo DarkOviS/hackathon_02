@@ -14,6 +14,7 @@ function Buttons() {
         >
           Filter
         </button>
+
         <button type="button" className="buttonTrajet">
           Trajet
         </button>

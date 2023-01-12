@@ -1,9 +1,9 @@
-import List from "./List";
+import ListContainer from "../components/ListContainer";
 
 export default function Home() {
   return (
     <main>
-      <List />
+      <ListContainer />
       <p>coucou</p>
     </main>
   );

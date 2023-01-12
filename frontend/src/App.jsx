@@ -3,7 +3,6 @@ import Home from "./pages/Home";
 
 import "./style/App.css";
 import Travel from "./components/Travel";
-import FiltersPage from "./pages/FiltersPage";
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/filters" element={<FiltersPage />} />;
           <Route path="/travel" element={<Travel />} />
         </Routes>
       </div>

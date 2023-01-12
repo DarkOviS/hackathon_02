@@ -10,7 +10,6 @@ export default function Home() {
       <ListContainer />
       <p>coucou</p>
       <Buttons />
-
     </main>
   );
 }

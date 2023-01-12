@@ -5,13 +5,13 @@
   grid-column-end: 7;
   gap: 50px;
   align-items: center;
-}
-
-#container1,
-#disponibilité,
-#permis,
-#carburant,
-#personnes {
+  background-color: rgb(170, 218, 173);
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 400px;
+  height: 450px;
+  position: absolute;
+  margin-left: -10px;
 }
 
 input[type="number"] {

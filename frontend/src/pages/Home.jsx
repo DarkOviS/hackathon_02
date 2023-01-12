@@ -1,3 +1,7 @@
 export default function Home() {
-  return <header />;
+  return (
+    <main>
+      <p>coucou</p>
+    </main>
+  );
 }

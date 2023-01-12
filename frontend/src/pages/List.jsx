@@ -1,4 +1,3 @@
-import Header from "../Components/Header";
 import Vignette from "../Components/Vignette";
 
 const campingCarData = [
@@ -30,7 +29,6 @@ const campingCarData = [
 export default function List() {
   return (
     <div>
-      <Header />
       <div className="vignetteContainer">
         {campingCarData.map((campingCar) => (
           <Vignette

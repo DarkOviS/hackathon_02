@@ -4,7 +4,7 @@ import "../style/vignette.css";
 export default function Vignette({ name, image, price, available, license }) {
   return (
     <div className="vignette">
-      <img src={image} alt="campingcar" />
+      <img className="campingCarImage" src={image} alt="campingcar" />
       <h2 className="campingCarName">{name}</h2>
       <ul className="listContainer">
         <li>{available}</li>

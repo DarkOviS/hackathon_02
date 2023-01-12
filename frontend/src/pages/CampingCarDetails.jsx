@@ -10,9 +10,9 @@ export default function CampingCarDetails() {
     <div>
       <h1>{campingCar.name}</h1>
       <img src={campingCar.image} alt="campingcar" />
-      <p>Prix: {campingCar.price}</p>
-      <p>Disponibilité: {campingCar.available}</p>
-      <p>Permis requis: {campingCar.license}</p>
+      <p>Price: {campingCar.price}</p>
+      <p>Availability: {campingCar.availability}</p>
+      <p>LicenseRequired: {campingCar.licenseRequired}</p>
     </div>
   );
 }

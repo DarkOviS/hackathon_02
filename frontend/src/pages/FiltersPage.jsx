@@ -1,6 +1,9 @@
+import Header from "../components/Header";
+
 export default function FiltersPage() {
   return (
     <main>
+      <Header />
       <label htmlFor="price">Price:</label>
       <p>Minimum:</p>
       <input type="number" />

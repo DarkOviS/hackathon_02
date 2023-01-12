@@ -1,0 +1,25 @@
+.buttonFilter,
+.buttonTrajet {
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  background: rgb(171, 226, 150);
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.buttonFilter:hover,
+.buttonTrajet:hover {
+  background: rgb(142, 233, 106);
+  box-shadow: none;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}

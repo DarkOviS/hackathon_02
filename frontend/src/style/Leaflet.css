@@ -1,4 +1,8 @@
 .leafletcontener {
-  width: 50%;
+  width: 100%;
   height: 50vh;
+}
+.leafletcontenerfull {
+  width: 100%;
+  height: 100vh;
 }

@@ -25,6 +25,7 @@ function Routing() {
       autoRoute: true,
     }).addTo(map);
 
+    // eslint-disable-next-line consistent-return
     return () => map.removeControl(routingControl);
   }, [map]);
 

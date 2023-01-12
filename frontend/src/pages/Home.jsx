@@ -7,9 +7,8 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <ListContainer />
-      <p>coucou</p>
       <Buttons />
+      <ListContainer />
     </main>
   );
 }

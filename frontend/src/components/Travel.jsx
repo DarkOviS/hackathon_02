@@ -2,6 +2,7 @@ import { useState } from "react";
 import Leaflet from "./Leaflet";
 import "../style/Travel.css";
 import Geolocation from "./Geolocation";
+import Header from "./Header";
 
 export default function Travel() {
   const [map, setMap] = useState(false);
@@ -12,6 +13,7 @@ export default function Travel() {
   }
   return (
     <div>
+      <Header />
       {map ? (
         <Leaflet styleMap={styleMap} />
       ) : (

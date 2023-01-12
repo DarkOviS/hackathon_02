@@ -3,12 +3,12 @@ import "../style/vignette.css";
 import { Link } from "react-router-dom";
 
 export default function Vignette({
-  name,
-  image,
-  price,
-  available,
-  license,
   id,
+  image,
+  name,
+  price,
+  availability,
+  licenseRequired,
 }) {
   return (
     <div className="vignette">
@@ -17,9 +17,9 @@ export default function Vignette({
         <h2 className="campingCarName">{name}</h2>
       </Link>
       <ul className="listContainer">
-        <li>{available}</li>
+        <li>{availability}</li>
         <li>{price}</li>
-        <li>{license}</li>
+        <li>{licenseRequired}</li>
       </ul>
     </div>
   );
@@ -28,7 +28,7 @@ Vignette.propTypes = {
   name: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
-  available: PropTypes.string.isRequired,
-  license: PropTypes.string.isRequired,
+  availability: PropTypes.string.isRequired,
+  licenseRequired: PropTypes.string.isRequired,
   id: PropTypes.number.isRequired,
 };

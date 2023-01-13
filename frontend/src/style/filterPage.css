@@ -7,11 +7,11 @@
   align-items: center;
   background-color: rgb(170, 218, 173);
   border: 1px solid black;
-  border-radius: 50px;
-  width: 400px;
-  height: 450px;
-  position: absolute;
-  margin-left: -10px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  justify-content: center;
+  margin-left: 20px;
 }
 
 input[type="number"] {

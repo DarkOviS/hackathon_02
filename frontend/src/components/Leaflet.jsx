@@ -8,8 +8,8 @@ export default function Leaflet({ styleMap, points }) {
   return (
     <MapContainer
       className={styleMap}
-      center={[48.6, -2.0]}
-      zoom={6}
+      center={[46.76667, 2.45]}
+      zoom={5}
       scrollWheelZoom
     >
       <TileLayer

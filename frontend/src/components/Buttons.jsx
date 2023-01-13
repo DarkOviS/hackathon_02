@@ -15,7 +15,7 @@ export default function Buttons({ openMenu, setOpenMenu }) {
           Filter
         </button>
         <Link to="/travel">
-          <button type="button" className="buttonTrajet">
+          <button type="button" className="buttonFilter">
             Trajet
           </button>
         </Link>

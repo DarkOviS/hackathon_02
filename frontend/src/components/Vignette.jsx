@@ -7,19 +7,19 @@ export default function Vignette({
   image,
   name,
   price,
-  availability,
-  licenseRequired,
+  available,
+  license,
 }) {
   return (
     <div className="vignette">
       <Link to={`/camping-cars/${id}`}>
         <img className="campingCarImage" src={image} alt="campingcar" />
       </Link>
-      <h2 className="campingCarName">{name}</h2>
+      <p className="campingCarName">{name}</p>
       <ul className="listContainer">
-        <li>{availability}</li>
+        <li>{available}</li>
         <li>{price}</li>
-        <li>{licenseRequired}</li>
+        <li>{license}</li>
       </ul>
     </div>
   );
@@ -28,7 +28,7 @@ Vignette.propTypes = {
   name: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
-  availability: PropTypes.string.isRequired,
-  licenseRequired: PropTypes.string.isRequired,
+  available: PropTypes.string.isRequired,
+  license: PropTypes.string.isRequired,
   id: PropTypes.number.isRequired,
 };

@@ -13,7 +13,7 @@ const campingCarData = [
     image: "src/assets/campingcar1.png",
     price: "45,000€",
     available: "Maintenance",
-    license: "Permis poids lourd",
+    license: "Poids lourd",
   },
   {
     id: 3,

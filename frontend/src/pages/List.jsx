@@ -11,8 +11,8 @@ export default function List() {
             name={campingCar.name}
             image={campingCar.image}
             price={campingCar.price}
-            available={campingCar.available}
-            license={campingCar.license}
+            availability={campingCar.availability}
+            licenseRequired={campingCar.licenseRequired}
             id={campingCar.id}
           />
         ))}

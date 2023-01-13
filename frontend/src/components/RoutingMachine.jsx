@@ -5,7 +5,7 @@ import L from "leaflet";
 import "leaflet-routing-machine";
 import "lrm-graphhopper";
 
-import "./Routing.css";
+import "../style/Routing.css";
 
 function Routing({ points }) {
   const map = useMap();

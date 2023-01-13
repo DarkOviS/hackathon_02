@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useMap } from "react-leaflet";
+import PropTypes from "prop-types";
 import L from "leaflet";
 import "leaflet-routing-machine";
 import "lrm-graphhopper";
@@ -30,5 +31,7 @@ function Routing({ points }) {
 
   return null;
 }
-
+Routing.propTypes = {
+  points: PropTypes.arrayOf(PropTypes.number).isRequired,
+};
 export default Routing;

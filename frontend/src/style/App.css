@@ -3,6 +3,9 @@
   padding: 0;
   font-family: "Fira Sans Condensed", sans-serif;
 }
+html body {
+  background-color: whitesmoke;
+}
 .filtersOpen {
   background-color: rgb(73, 73, 73);
 }

@@ -14,8 +14,8 @@ export default function Vignette({
     <div className="vignette">
       <Link to={`/camping-cars/${id}`}>
         <img className="campingCarImage" src={image} alt="campingcar" />
-        <h2 className="campingCarName">{name}</h2>
       </Link>
+      <h2 className="campingCarName">{name}</h2>
       <ul className="listContainer">
         <li>{availability}</li>
         <li>{price}</li>

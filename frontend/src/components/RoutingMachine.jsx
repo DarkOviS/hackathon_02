@@ -1,20 +1,21 @@
 import { useEffect } from "react";
 import { useMap } from "react-leaflet";
+import PropTypes from "prop-types";
 import L from "leaflet";
 import "leaflet-routing-machine";
 import "lrm-graphhopper";
 
-import "./Routing.css";
+import "../style/Routing.css";
 
-function Routing() {
+function Routing({ points }) {
   const map = useMap();
 
   useEffect(() => {
     if (!map) return;
 
     const routingControl = L.Routing.control({
-      waypoints: [L.latLng(1.350794, 103.83595), L.latLng(1.392755, 103.91367)],
-      router: L.Routing.graphHopper("4c036dcd-7ebb-451c-ba4b-c3c189f82d71"),
+      waypoints: points.map((point) => L.latLng(...point)),
+      router: L.Routing.graphHopper(import.meta.env.VITE_GRAPH_HOPPER_API_KEY),
       lineOptions: {
         styles: [
           { color: "black", opacity: 0.3, weight: 11 },
@@ -24,12 +25,13 @@ function Routing() {
       },
       autoRoute: true,
     }).addTo(map);
-
     // eslint-disable-next-line consistent-return
     return () => map.removeControl(routingControl);
-  }, [map]);
+  }, [map, points]);
 
   return null;
 }
-
+Routing.propTypes = {
+  points: PropTypes.arrayOf(PropTypes.number).isRequired,
+};
 export default Routing;

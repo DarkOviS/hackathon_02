@@ -1,0 +1,31 @@
+.container {
+  margin: 10rem, 10rem;
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 5px;
+  border: 0.5px solid rgb(8, 6, 43);
+  box-shadow: 1px 2px 500px 30px rgb(88, 219, 206);
+  border-radius: 20%;
+  background-color: rgb(78, 186, 35);
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(78, 186, 35);
+}
+.pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  float: right;
+  filter: blur(5px);
+}
